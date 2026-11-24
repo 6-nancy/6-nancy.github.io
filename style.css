@@ -45,7 +45,7 @@ body:has(#about:target) .topnav a[href="#about"] {
   float: right;
   background-color: transparent;
   border: none;
-  padding: 17px 17px;
+  padding: 17px 25px;
   font-size: 17px;
 
 }
