@@ -5,7 +5,7 @@
         --acc-color: #785589;
         --sub-color: #cbb9c8;
         --spacing-md: 1rem;
-        font-size: 16px; /* Sets 1rem = 16px */
+        font-size: 16px; 
       }
       :root[data-theme="dark"] {
         --primary-color: #5d7d26;
@@ -51,6 +51,10 @@ body:has(#thoughts:target) .topnav a[href="#thoughts"]{
   font-size: 17px;
 
 }
+
+.ring {
+        position: fixed;
+        bottom: 0;}
 .topnav a[href="mailto:nancylnx.liu@mail.utoronto.ca"],
 .topnav a[href="https://www.linkedin.com/in/nancylnx/"] {
   float: right;
