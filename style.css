@@ -42,10 +42,6 @@ body:has(#thoughts:target) .topnav a[href="#thoughts"]{
   font-weight: bold;
         border-bottom: 3px solid var(--bg-color);
 }
-.topnav a[href="mailto:nancylnx.liu@mail.utoronto.ca"],
-.topnav a[href="https://www.linkedin.com/in/nancylnx/"] {
-  float: right;
-}
 
 .theme-btn {
   float: right;
@@ -54,6 +50,10 @@ body:has(#thoughts:target) .topnav a[href="#thoughts"]{
   padding: 17px 25px;
   font-size: 17px;
 
+}
+.topnav a[href="mailto:nancylnx.liu@mail.utoronto.ca"],
+.topnav a[href="https://www.linkedin.com/in/nancylnx/"] {
+  float: right;
 }
 .page {
   display: none;
