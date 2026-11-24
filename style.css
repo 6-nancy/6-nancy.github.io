@@ -68,12 +68,14 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-        .ring {
-        margin-top: auto;
-        align-self: center;
+        
 }
+.ring {
+  margin-top: auto;
+  align-self: center;
+  display: flex;
+  justify-content: center;
 }
-
 .page:target,
 body:not(:has(:target)) #home {
   display: block;
