@@ -40,6 +40,7 @@ body:has(#about:target) .topnav a[href="#about"] {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-weight: bold;
+        border-bottom: 3px solid var(--bg-color);
 }
 .theme-btn {
   float: right;
