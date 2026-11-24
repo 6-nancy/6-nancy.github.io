@@ -20,7 +20,7 @@
   }
 .topnav a {
     float: left;
-    color: var(--text-color);
+    color: #dce9c3;
     text-align: center;
     padding: 17px 25px;
     text-decoration: none;
@@ -36,13 +36,17 @@
 body:not(:has(:target)) .topnav a[href="#home"],
 body:has(#home:target) .topnav a[href="#home"],
 body:has(#projects:target) .topnav a[href="#projects"],
-body:has(#thoughts:target) .topnav a[href="#thoughts"],
-body:has(#about:target) .topnav a[href="#about"] {
+body:has(#thoughts:target) .topnav a[href="#thoughts"]{
   background-color: var(--bg-color);
   color: var(--text-color);
   font-weight: bold;
         border-bottom: 3px solid var(--bg-color);
 }
+.topnav a[href="mailto:nancylnx.liu@mail.utoronto.ca"],
+.topnav a[href="https://www.linkedin.com/in/nancylnx/"], {
+  float: right;
+}
+
 .theme-btn {
   float: right;
   background-color: transparent;
