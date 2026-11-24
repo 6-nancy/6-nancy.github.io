@@ -75,6 +75,7 @@ body {
   align-self: center;
   display: flex;
   justify-content: center;
+margin: auto auto 20px auto;
 }
 .page:target,
 body:not(:has(:target)) #home {
