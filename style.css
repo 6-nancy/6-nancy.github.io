@@ -15,7 +15,7 @@
         --sub-color: #785589;
       }
 .topnav {
-    background-color: #785589;
+    background-color: var(--text-color);
     overflow: hidden;
   }
 .topnav a {
@@ -46,7 +46,7 @@ body:has(#about:target) .topnav a[href="#about"] {
   background-color: transparent;
   border: none;
   padding: 17px 25px;
-  font-size: 20px;
+  font-size: 17px;
 
 }
 .page {
