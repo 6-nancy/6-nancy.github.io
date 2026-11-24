@@ -32,7 +32,12 @@
     background-color: #04AA6D;
     color: white;
   }
-       
+
+.page {
+    display: none;
+    padding: 20px;
+  }
+
 body:not(:has(:target)) #home {
     display: block;
   }
