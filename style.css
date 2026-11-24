@@ -8,7 +8,8 @@
         font-size: 16px; 
         font-family: Tahoma, Arial, sans-serif;
       }
-      :root[data-theme="dark"] {
+
+:root[data-theme="dark"] {
         --primary-color: #5d7d26;
         --text-color: #dce9c3;
         --bg-color: #464a39;
@@ -69,6 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+        font-family: Tahoma, Arial, sans-serif;
         
 }
 .ring {
