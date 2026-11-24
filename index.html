@@ -13,6 +13,8 @@
       <a href="#projects">projects</a>
       <a href="#thoughts">thoughts</a>
       <a href="#about">about me</a>
+      <button type="button" id="theme-toggle" class="theme-btn" onclick="toggleTheme()">
+      🌙</button>
 
     </div>
     <section id="home" class="page">
@@ -38,6 +40,14 @@
     
   </body>
   <script>
-
+    function toggleTheme() {
+      const root = document.documentElement;
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      const themeBtn = document.getElementById('theme-toggle');
+      
+      body.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      themeBtn.textContent = isDark ? '🌙' : '☀️';
+            }
+        }
   </script>
 </html>
