@@ -28,25 +28,24 @@
     color: black;
   }
 
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+.topnav a.active,
+body:not(:has(:target)) .topnav a[href="#home"],
+body:has(#home:target) .topnav a[href="#home"],
+body:has(#projects:target) .topnav a[href="#projects"],
+body:has(#thoughts:target) .topnav a[href="#thoughts"],
+body:has(#about:target) .topnav a[href="#about"] {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-weight: bold;
+}
 
 .page {
-    display: none;
-    padding: 20px;
-  }
+  display: none;
+  padding: 20px;
+}
 
+
+.page:target,
 body:not(:has(:target)) #home {
-    display: block;
-  }
-
-body:not(:has(:target)) nav a[href="#home"],
-  body:has(#home:target) nav a[href="#home"],
-  body:has(#about:target) nav a[href="#about"],
-  body:has(#contact:target) nav a[href="#contact"] {
-    color: #0066cc;
-    font-weight: bold;
-    border-bottom: 3px solid #0066cc;
-  }
+  display: block;
+}
