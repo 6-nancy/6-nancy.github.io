@@ -15,14 +15,14 @@
         --sub-color: #785589;
       }
 .topnav {
-    background-color: var(--text-color);
+    background-color: #785589;
     overflow: hidden;
   }
 .topnav a {
     float: left;
     color: var(--bg-color);
     text-align: center;
-    padding: 17px 16px;
+    padding: 17px 25px;
     text-decoration: none;
     font-size: 17px;
   }
