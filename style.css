@@ -17,15 +17,15 @@
   }
 .topnav a {
     float: left;
-    color: #dce9c3;
+    color: var(--bg-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
 .topnav a:hover {
-    background-color: var(--primary-color);
-    color: black;
+    background-color: var(--acc-color);
+    color: var(--bg-color);
   }
 
 .topnav a.active,
@@ -34,7 +34,7 @@ body:has(#home:target) .topnav a[href="#home"],
 body:has(#projects:target) .topnav a[href="#projects"],
 body:has(#thoughts:target) .topnav a[href="#thoughts"],
 body:has(#about:target) .topnav a[href="#about"] {
-  background-color: var(--acc-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
   font-weight: bold;
 }
