@@ -33,3 +33,6 @@
     color: white;
   }
        
+body:not(:has(:target)) #home {
+    display: block;
+  }
