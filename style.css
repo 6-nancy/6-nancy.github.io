@@ -11,18 +11,18 @@
         --primary-color: #5d7d26;
         --text-color: #dce9c3;
         --bg-color: #464a39;
-        --acc-color: #cbb9c8;
-        --sub-color: #785589;
+        --acc-color: #785589;
+        --sub-color: #cbb9c8;
       }
 .topnav {
-    background-color: var(--text-color);
+    background-color: var(--primary-color);
     overflow: hidden;
   }
 .topnav a {
     float: left;
     color: var(--bg-color);
     text-align: center;
-    padding: 17px 25px;
+    padding: 14px 17px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -45,7 +45,7 @@ body:has(#about:target) .topnav a[href="#about"] {
   float: right;
   background-color: transparent;
   border: none;
-  padding: 17px 25px;
+  padding: 14px 17px;
   font-size: 17px;
 
 }
