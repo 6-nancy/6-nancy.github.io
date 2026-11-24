@@ -1,1 +1,10 @@
-
+:root {
+        --primary-color: #4a631e;
+        --text-color: #e1edcc;
+        --bg-color: #464a39;
+        --spacing-md: 1rem;
+        font-size: 16px; /* Sets 1rem = 16px */
+      }
+      :root[data-theme="dark"] {
+        --text-color: #f9fafb;
+        --bg-color: #111827;
