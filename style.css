@@ -36,3 +36,12 @@
 body:not(:has(:target)) #home {
     display: block;
   }
+
+body:not(:has(:target)) nav a[href="#home"],
+  body:has(#home:target) nav a[href="#home"],
+  body:has(#about:target) nav a[href="#about"],
+  body:has(#contact:target) nav a[href="#contact"] {
+    color: #0066cc;
+    font-weight: bold;
+    border-bottom: 3px solid #0066cc;
+  }
