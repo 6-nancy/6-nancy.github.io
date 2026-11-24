@@ -56,7 +56,9 @@ body:has(#thoughts:target) .topnav a[href="#thoughts"]{
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-        margin: 0;}
+        margin-top: auto;
+        align-self: center;
+}
 
 .topnav a[href="mailto:nancylnx.liu@mail.utoronto.ca"],
 .topnav a[href="https://www.linkedin.com/in/nancylnx/"] {
