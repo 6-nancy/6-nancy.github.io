@@ -52,11 +52,6 @@ body:has(#thoughts:target) .topnav a[href="#thoughts"]{
 
 }
 
-.ring {
-        margin-top: auto;
-        align-self: center;
-}
-
 .topnav a[href="mailto:nancylnx.liu@mail.utoronto.ca"],
 .topnav a[href="https://www.linkedin.com/in/nancylnx/"] {
   float: right;
@@ -73,6 +68,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+        .ring {
+        margin-top: auto;
+        align-self: center;
+}
 }
 
 .page:target,
