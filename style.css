@@ -20,7 +20,7 @@
   }
 .topnav a {
     float: left;
-    color: var(--bg-color);
+    color: var(--text-color);
     text-align: center;
     padding: 17px 25px;
     text-decoration: none;
