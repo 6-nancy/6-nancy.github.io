@@ -8,8 +8,9 @@
       :root[data-theme="dark"] {
         --text-color: #f9fafb;
         --bg-color: #111827;
+      }
 .topnav {
-    background-color: bg-color;
+    background-color: var(--bg-color);
     overflow: hidden;
   }
 
