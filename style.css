@@ -8,8 +8,11 @@
         font-size: 16px; /* Sets 1rem = 16px */
       }
       :root[data-theme="dark"] {
-        --text-color: #f9fafb;
-        --bg-color: #111827;
+        --primary-color: #464a39;
+        --text-color: #5d7d26;
+        --bg-color: #dce9c3;
+        --acc-color: #cbb9c8;
+        --sub-color: #785589;
       }
 .topnav {
     background-color: var(--text-color);
@@ -19,7 +22,7 @@
     float: left;
     color: var(--bg-color);
     text-align: center;
-    padding: 14px 16px;
+    padding: 17px 16px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -42,7 +45,7 @@ body:has(#about:target) .topnav a[href="#about"] {
   float: right;
   background-color: transparent;
   border: none;
-  padding: 14px 16px;
+  padding: 17px 17px;
   font-size: 17px;
 
 }
