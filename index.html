@@ -15,7 +15,7 @@
       <a href="#projects">projects</a>
       <a href="#thoughts">thoughts</a>
       <button type="button" id="theme-toggle" class="theme-btn" onclick="toggleTheme()">
-      🌙</button>
+      ☀️</button>
       <a href="mailto:nancylnx.liu@mail.utoronto.ca">email</a>
       <a href="https://www.linkedin.com/in/nancylnx/">linkedin</a>
 
@@ -53,11 +53,11 @@
     <script>
     function toggleTheme() {
       const root = document.documentElement;
-      const isDark = root.getAttribute('data-theme') === 'dark';
+      const isDark = root.getAttribute('data-theme') === 'light';
       const themeBtn = document.getElementById('theme-toggle');
       
-      root.setAttribute('data-theme', isDark ? 'light' : 'dark');
-      themeBtn.textContent = isDark ? '🌙' : '☀️';
+      root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      themeBtn.textContent = isDark ? '☀️' : '🌙';
             }
         
   </script>
