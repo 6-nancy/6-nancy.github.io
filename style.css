@@ -1,7 +1,7 @@
 :root {
         --primary-color: #5d7d26;
-        --text-color: #464a39;
-        --bg-color: #dce9c3;
+        --text-color: #dce9c3;
+        --bg-color: #464a39;
         --acc-color: #785589;
         --sub-color: #cbb9c8;
         --spacing-md: 1rem;
@@ -9,10 +9,10 @@
         font-family: Tahoma, Arial, sans-serif;
       }
 
-:root[data-theme="dark"] {
-        --primary-color: #5d7d26;
-        --text-color: #dce9c3;
-        --bg-color: #464a39;
+:root[data-theme="light"] {
+         --primary-color: #5d7d26;
+        --text-color: #464a39;
+        --bg-color: #dce9c3;
         --acc-color: #785589;
         --sub-color: #cbb9c8;
       }
