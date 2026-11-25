@@ -79,6 +79,8 @@ body {
   display: flex;
   justify-content: center;
 margin: auto auto 20px auto;
+text-decoration: none;
+color: var(--acc-color);
 }
 .page:target,
 body:not(:has(:target)) #home {
